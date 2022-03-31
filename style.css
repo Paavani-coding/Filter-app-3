@@ -1,0 +1,48 @@
+h2{
+    font-size: 25px !important;
+    background-color: darkslateblue;
+    color: aliceblue;
+}
+h2:hover{
+    color:aliceblue !important;
+}
+
+button{
+    background-color: rgb(87, 9, 9);
+    color: aliceblue !important;
+}
+
+button:hover{
+    background-color: rgb(9, 87, 9);
+    color: aliceblue !important;
+}
+
+canvas{
+    animation-name: glow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-top:400px;
+    text-align: center !important;
+}
+@keyframes glow{
+    from{ box-shadow: 1px 1px 38px rgb(4, 51, 4);}
+    to { box-shadow: 1px 1px 38px red;}
+}
+
+body{
+    font-weight: bolder !important;
+}
+
+div.scroll {
+    margin-right: 15px;
+    padding: 10px;
+    background-color: rgba(233, 123, 20, 0.74);
+    width: 450px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+img:hover{
+    cursor: pointer;
+    background-color: rgba(90, 246, 194, 0.657);
+}

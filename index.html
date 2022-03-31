@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <title>Realtime Filter  Webapp using PoseNet Neural Network</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+<body background="Bg-Filter.png" class="col-xs-12 col-sm-12 col-md-12">
+  <center>
+    <h2 class="btn">Realtime Filter</h2><br>
+    <h3>Cute Realtime Filters for all</h3>
+    <h3>Press U, D, S, M, L for Unicorn, Dog-nose, Specs, Mustache, Lips filter respectively</h3><br>
+    <button class="btn" onclick="take_snapshot()">Take Snapshot</button>
+    <br><br>
+    <div class="scroll">
+      <span>
+        <img src="Unicorn_img.png" style="border-radius: 50px; width: 140px; height: 100px;" onclick="unicorn()">
+      </span>
+      <span>
+        <img src="Dog_Filter.png" style="border-radius: 50px; width: 160px; height: 90px;" onclick="dog()">
+      </span>
+      <span>
+        <img src="Specs_filter.png" style="border-radius: 50px; width: 160px; height: 90px;" onclick="specs()">
+      </span>
+      <span>
+        <img src="Mustache_img.png" style="border-radius: 50px; width: 150px; height: 90px;"onclick="mustache()">
+      </span>
+      <span>
+        <img src="Lips_filter.png" style="border-radius: 50px; width: 125px; height:80px;" onclick="lips()">
+      </span>
+    </div>
+  </center>
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
